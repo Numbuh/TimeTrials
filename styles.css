@@ -17,6 +17,7 @@ header {
     justify-content: space-between;
     align-items: center;
     z-index: 1000;
+    overflow: hidden; /* Prevent horizontal scrolling */
 }
 
 header .logo {
@@ -69,6 +70,7 @@ header nav ul li a:hover {
 
 #hero .hero-content {
     z-index: 1;
+    max-width: 90%; /* Ensure content does not overflow */
 }
 
 .cta {
@@ -92,6 +94,7 @@ header nav ul li a:hover {
     width: 90%;
     max-width: 1200px;
     margin: 50px auto;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
 }
 
 #gallery .gallery-grid {
@@ -217,4 +220,43 @@ footer .social-media a:hover {
 .back-link:hover {
     background-color: #2a75bb;
     color: white;
+}
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; /* Stack elements vertically on small screens */
+        align-items: flex-start; /* Align items to the left on small screens */
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    header .logo {
+        margin-bottom: 10px; /* Space between logo and nav on small screens */
+    }
+
+    header nav {
+        width: 100%;
+    }
+
+    header nav ul {
+        flex-direction: column; /* Stack nav items vertically */
+        display: none; /* Hide the menu by default */
+    }
+
+    header nav.active ul {
+        display: flex; /* Show the menu when active */
+    }
+
+    header .nav-toggle {
+        display: block; /* Show the toggle button */
+        background: none;
+        border: none;
+        font-size: 24px;
+        cursor: pointer;
+        color: #2a75bb;
+        margin-top: 10px;
+    }
+
+    header nav ul li {
+        margin: 10px 0; /* Space between menu items on small screens */
+    }
 }
