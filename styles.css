@@ -98,13 +98,10 @@ header nav ul li a:hover {
 }
 
 .winnerinfo-container {
-    width: 80%;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 40px 20px;
-    background-color: #333;
-    color: #fff;
-    border-radius: 10px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
     /* Add any other custom styles you want */
 }
 
