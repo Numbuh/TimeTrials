@@ -99,7 +99,7 @@ header nav ul li a:hover {
 
 .winnerinfo-container {
     width: 90%;
-    max-width: 1200px;
+    max-width: 600px;
     margin: 50px auto;
     box-sizing: border-box; /* Include padding and border in element's total width and height */
     /* Add any other custom styles you want */
