@@ -47,13 +47,14 @@ header nav ul li a:hover {
 }
 
 #hero {
+    position: relative;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: white;
-    position: relative;
+    overflow: hidden; /* Ensures that the video covers the entire background */
 }
 
 #heroVideo {
