@@ -123,6 +123,28 @@ header nav ul li a:hover {
     /* Add any other custom styles you want */
 }
 
+.team-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    flex-wrap: wrap; /* Allows wrapping if needed */
+}
+
+.team-container img {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+    transition: transform 0.3s ease;
+    cursor: pointer; /* Adds a pointer cursor for hover interactivity */
+}
+
+.team-container img:hover {
+    transform: scale(1.1); /* Adds a hover effect */
+}
+
+
 #gallery .gallery-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
