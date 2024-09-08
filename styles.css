@@ -47,7 +47,7 @@ header nav ul li a:hover {
 }
 
 #hero {
-    background: url('your-video.MP4') no-repeat center center/cover;
+    background: url('your-video.mp4') no-repeat center center/cover;
     height: 100vh;
     display: flex;
     align-items: center;
