@@ -115,6 +115,14 @@ header nav ul li a:hover {
     /* Add any other custom styles you want */
 }
 
+.pokemoninfo-container {
+    width: 90%;
+    max-width: 600px;
+    margin: 50px auto;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    /* Add any other custom styles you want */
+}
+
 #gallery .gallery-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
