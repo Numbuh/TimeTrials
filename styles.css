@@ -160,7 +160,7 @@ header nav ul li a:hover {
 }
 
 .pokemon-card-GRPS {
-    background: linear-gradient(135deg, #8e2de2, #6aa84f); /* Gradient */
+    background: linear-gradient(135deg, #8e2de2 30%, #6aa84f 70%); /* Gradient */
     background-size: 400% 400%;
     background-color: #fff;
     border-radius: 10px;
