@@ -124,12 +124,11 @@ header nav ul li a:hover {
 }
 
 .team-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px;
-    background-color: #f8f9fa;
-    flex-wrap: wrap; /* Allows wrapping if needed */
+    width: 90%;
+    max-width: 250px;
+    margin: 50px auto;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    /* Add any other custom styles you want */
 }
 
 .team-container img {
