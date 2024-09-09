@@ -172,7 +172,19 @@ header nav ul li a:hover {
     transform: scale(1.05);
 }
 
+.pokemon-card-GRPS:hover {
+    transform: scale(1.05);
+}
+
 .pokemon-card img {
+    width: 150px;  /* Fixed width */
+    height: 150px; /* Fixed height */
+    object-fit: cover; /* Ensures the image fits within the box, keeping its aspect ratio */
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.pokemon-card-GRPS img {
     width: 150px;  /* Fixed width */
     height: 150px; /* Fixed height */
     object-fit: cover; /* Ensures the image fits within the box, keeping its aspect ratio */
